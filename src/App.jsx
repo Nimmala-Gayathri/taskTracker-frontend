@@ -12,7 +12,7 @@ const App = () => {
     <div className="app-wrapper">
       <Routes>
         <Route path="/" element={token ? <Dashboard /> : <Navigate to="/login" />} />
-        <Route path="/signup" element={<Signup />} />
+        <Route path="/signup" element={<Signup/>} />
         <Route path="/login" element={<Login />} />
       </Routes>
     </div>

@@ -12,7 +12,7 @@ function SignupPage() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:5000/api/auth/signup', form);
+      await axios.post('https://tasktracker-backend-1.onrender.com/api/auth/signup', form);
       navigate('/login');
     } catch (error) {
       console.error('Signup failed:', error);

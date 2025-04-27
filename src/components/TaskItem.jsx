@@ -13,7 +13,7 @@ function TaskItem({ task, onTaskUpdated }) {
 
   const handleDelete = async () => {
     try {
-      await axios.delete(`http://localhost:5000/api/tasks/${task._id}`, {
+      await axios.delete(`https://tasktracker-backend-1.onrender.com/api/tasks/${task._id}`, {
         headers: { Authorization: `Bearer ${token}` },
       });
       onTaskUpdated();

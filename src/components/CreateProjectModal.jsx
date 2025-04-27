@@ -8,7 +8,7 @@ function CreateProjectModal({ onProjectCreated, projectId }) {
 
   const handleSubmit = async () => {
     try {
-      await axios.post(`http://localhost:5000/api/tasks/${projectId}/tasks`, { title }, {
+      await axios.post(`https://tasktracker-backend-1.onrender.com/api/tasks/${projectId}/tasks`, { title }, {
         headers: { Authorization: `Bearer ${token}` },
       });
       setTitle('');
