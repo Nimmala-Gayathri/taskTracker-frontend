@@ -1,0 +1,96 @@
+.task-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 15px 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease;
+  }
+  
+  .task-card:hover {
+    transform: translateY(-4px);
+  }
+  
+  h4 {
+    margin: 0 0 8px;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  p {
+    margin: 5px 0;
+    color: #555;
+    /* width: 70%; */
+  }
+  
+  .status {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .status.pending {
+    color: #f39c12;
+  }
+  
+  .status.inprogress {
+    color: #3498db;
+  }
+  
+  .status.completed {
+    color: #27ae60;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+  }
+  
+  input:focus, select:focus {
+    border-color: #3498db;
+  }
+  
+  .btn-group {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .edit-btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .delete-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .save-btn {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .edit-btn:hover, .delete-btn:hover, .save-btn:hover {
+    opacity: 0.85;
+  }
+  

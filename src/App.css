@@ -1,0 +1,12 @@
+/* App.css */
+
+.app-wrapper {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  overflow-y: auto; /* allow vertical scroll */
+  overflow-x: hidden; /* prevent horizontal scroll */
+}

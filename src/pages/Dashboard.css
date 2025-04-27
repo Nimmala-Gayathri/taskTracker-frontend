@@ -1,0 +1,56 @@
+.dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 20px;
+  }
+  
+  .dashboard-heading {
+    font-size: 32px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .project-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .project-item {
+    padding: 12px 20px;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .project-item:hover {
+    background-color: #d0d7de;
+    transform: scale(1.02);
+  }
+  
+  .project-item.active {
+    background-color: #3498db;
+    color: #fff;
+    transform: scale(1.05);
+  }
+  
+  .tasklist-container {
+    /* margin-top: 30px; */
+    padding: 30px;
+    background-color: #fdfdfd;
+    /* border-radius: 12px; */
+    /* box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.08); */
+  }
+  
+  .tasklist-heading {
+    font-size: 25px;
+    color: #34495e;
+    margin-bottom: 20px;
+  }
+
+  
