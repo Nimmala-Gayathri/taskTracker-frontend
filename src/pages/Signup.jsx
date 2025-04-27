@@ -23,6 +23,7 @@ function SignupPage() {
   return (
     <div className="signup-container">
       <form className="signup-form" onSubmit={handleSubmit}>
+        <h2 className="signup-title">Task Tracker</h2>
         <h2 className="signup-title">Create Account</h2>
 
         <input
