@@ -48,6 +48,7 @@ function LoginPage() {
         />
 
         <button className="login-button" type="submit">Login</button>
+        <p>If you are a new user <a href='/signup'>Register</a></p>
       </form>
     </div>
   );

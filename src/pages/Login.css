@@ -50,7 +50,11 @@
     border-color: #3498db;
     outline: none;
   }
-  
+  p{
+    font-size: 14px;
+    color: #7f8c8d;
+    margin-top: 30px;
+  }
   /* Styling for the login button */
   .login-button {
     width: 100%;
@@ -62,6 +66,7 @@
     font-size: 18px;
     cursor: pointer;
     transition: background-color 0.3s;
+    margin-bottom: 20px;
   }
   
   /* Button hover effect */
